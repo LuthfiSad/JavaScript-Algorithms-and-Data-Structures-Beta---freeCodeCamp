@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Telephone Number Validator</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TELEPHONE NUMBER VALIDATOR</h1>
+      <br />
+      <p>Berikut beberapa contoh format yang valid untuk nomor telepon AS:</p>
+      <p class="numbers-us">
+        1 555-555-5555
+        <br />
+        1 (555) 555-5555
+        <br />
+        1(555)555-5555
+        <br />
+        1 555 555 5555
+        <br />
+        5555555555
+        <br />
+        555-555-5555
+        <br />
+        (555)555-5555
+      </p>
+      <br />
+      <input type="text" id="user-input" placeholder="Enter numbers...." />
+      <div class="btn">
+        <button id="check-btn">CHECK</button>
+        <button id="clear-btn">CLEAR</button>
+      </div>
+      <div id="results-div"></div>
+    </div>
+
+    <script src="regex.js"></script>
+  </body>
+</html>
